@@ -1,0 +1,44 @@
+.holder {
+  display: flex;
+  flex-wrap: wrap;
+  border: 5px solid black;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  margin: 0 auto;
+}
+
+.item {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  flex-basis: calc(100% / 3);
+}
+
+.item-1 {
+  flex-basis: 50%;
+  background-color: rgb(253, 100, 77);
+  border-top-left-radius: 45px;
+}
+
+.item-2 {
+  background-color: rgb(73, 131, 178);
+  order: 3;
+}
+
+.item-3 {
+  background-color: rgb(102, 55, 151);
+  order: 2;
+}
+
+.item-4 {
+  background-color: rgb(14, 127, 18);
+  order: 4;
+}
+
+.item-5 {
+  flex-basis: 50%;
+  background-color: rgb(253, 164, 41);
+  border-top-right-radius: 45px;
+  order: 1;
+}
