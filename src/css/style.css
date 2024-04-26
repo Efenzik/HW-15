@@ -2,8 +2,10 @@
   display: flex;
   flex-wrap: wrap;
   border: 10px dashed purple;
-  border-top-left-radius: 65px;
-  border-top-right-radius: 65px;
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
+  border-bottom-left-radius: 65px;
+  border-bottom-right-radius: 65px;
   margin: 0 auto;
   max-width: 150px;
   height: 200px;
@@ -31,11 +33,13 @@
 .item-3 {
   background-color: rgb(47, 189, 34);
   order: 2;
+  border-bottom-left-radius: 75px;
 }
 
 .item-4 {
   background-color: rgb(14, 127, 18);
   order: 4;
+  border-bottom-right-radius: 75px;
 }
 
 .item-5 {
