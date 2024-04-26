@@ -1,24 +1,26 @@
 .holder {
   display: flex;
   flex-wrap: wrap;
-  border: 5px solid black;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
+  border: 10px dashed purple;
+  border-top-left-radius: 65px;
+  border-top-right-radius: 65px;
   margin: 0 auto;
+  max-width: 150px;
+  height: 200px;
 }
 
 .item {
   text-align: center;
-  font-size: 30px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  font-size: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   flex-basis: calc(100% / 3);
 }
 
 .item-1 {
   flex-basis: 50%;
   background-color: rgb(253, 100, 77);
-  border-top-left-radius: 45px;
+  border-top-left-radius: 75px 75px;
 }
 
 .item-2 {
@@ -27,7 +29,7 @@
 }
 
 .item-3 {
-  background-color: rgb(102, 55, 151);
+  background-color: rgb(47, 189, 34);
   order: 2;
 }
 
@@ -39,6 +41,6 @@
 .item-5 {
   flex-basis: 50%;
   background-color: rgb(253, 164, 41);
-  border-top-right-radius: 45px;
+  border-top-right-radius: 75px;
   order: 1;
 }
